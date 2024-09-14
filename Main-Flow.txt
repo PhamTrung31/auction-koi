@@ -1,0 +1,108 @@
+
+												       mua đc								      thành công(online)/cod
+User search cá muốn đấu giá/xem cá có trong phiên đấu giá -> thực hiện cọc -> tham gia phiên đấu giá -----------> chọn phương thức thanh toán (cod hoặc vnpay/card) --------------------------------------> giao bên thứ 3 vận chuyển cá----------
+											|					  				    |										 |
+									        k mua dc|					  				    |										 |
+											|					  				    | không thanh toán								 |
+									      		v									    |										 |
+									    hoàn trả tiền cọc vào ví								    |										 |
+																				    v						         ------------------------------
+																			      lấy cọc + ban						 |			      |
+																										 (online)|			      |
+																											 | 			      |																									              								      					      -------------------------               |
+																									      |			      |		      |
+																								    nhận hàng |		              | không nhận    |(cod)
+																									      |			      |		      |
+																									      v			      V		      |
+																								  chuyển tiền về cty mình   lấy luôn cọc + ban        |
+																									      ^			      ^		      |
+																									      |			      |		      |
+																								    nhận hàng |			      | không nhận    |
+																									      |			      |		      |
+																									      |---------------------------------------|
+
+									kh cần xem trực tiếp
+
+
+Staff tạo phiên đấu giá -----> Koi Breeder gửi request tham gia phiên -------------------------> Staff cập nhật phương thức đấu giá và giá sàn -------> lên sàn
+						|											  |	    	    ^
+				  xem trực tiếp |									    k chốt đc giá |	    	    |
+						|											  |	    	    |
+						v											  v	    	    |
+					  Assign Staff										    Staff cancel	    |
+						|										          ^		    |
+						|										          |		    |
+						|										          |		    |
+						v			     không chốt được giá				          |		    |
+				       Chốt giá + phương thức -----------------------------------------------------------------------------		    |
+						|													    |
+						|													    |
+						|													    |
+						|				chốt được giá								    |
+						-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+															      		một người mua						 thành công
+				 ------------------- Phương thức 1 -----------> set giá cố định cho cá -----------> lên sàn + set cọc ------------------> thông báo thành công + thanh toán ---------------------> vận chuyển
+				 |										       |						    |
+				 |								       nhiều người mua |				           thất bại |
+				 |										       |						    |
+				 |										       v						    v
+				 |										  chọn random					    mất cọc + warning
+				 |
+				 |
+				 |
+				 |
+				 |												    		        kết thúc phiên											  thành công
+				 |------------------ Phương thức 2 ----------->  set cọc-----------> lên sàn -----------> người mua đặt giá (private) ------------------> chọn người cao nhất ------------------> thông báo thành công + thanh toán ---------------------> vận chuyển
+				 |																								    |
+				 |																							   thất bại |
+				 |																								    |
+				 |																								    v
+				 |																							    mất cọc + warning
+				 |
+				
+Phương thức đấu giá -------------- 
+				 |
+				 |
+				 |
+				 |														hết thời gian + người trả giá cao nhất						   thành công
+				 |------------------ Phương thức 3 -----------> set cọc + giá sàn + thời gian đếm ngược -----------> lên sàn --------------------------------------------> thông báo thành công + thanh toán ---------------------> vận chuyển
+				 |												        |								     |
+				 |								   còn thời gian + có người trả giá mới |							    thất bại |
+				 |												        |								     |
+				 |												        v								     v
+				 |								          đặt lại giá cao nhất trên sàn + pop-up thông báo cho người tham gia			     mất cọc + warning
+				 |
+				 |
+				 |
+				 |											     					   			        có người mua						thành công
+				 ------------------ Phương thức 4 -----------> set cọc + giá khởi điểm + khoảng thời gian giảm giá (private) + mức giá giảm theo từng đợt -----------> lên sàn ---------------> thông báo thành công + thanh toán ---------------------> vận chuyển
+														       									  |					  |
+												     							  	       không có người mua |				 thất bại |
+														       									  |					  |
+														       									  v					  v
+																					     giảm giá theo thời gian đã set		  mất cọc + warning
+
+* Phương thức 1 - Bán cá với giá xác định
+* Phương thức 2 - Bỏ giá 1 lần
+* Phương thức 3 - Trả giá lên
+* Phương thức 4 - Trả giá xuống
+
+
+
+
+
+
+											thành công			       manual
+Member tham gia đấu giá --------------> cọc tiền thông qua wallet/vnpay/credit card ---------------------> tham gia phiên --------------> để user set giá như bth
+														          |
+														 auto bid |
+															  |
+															  v
+													          set max + set bước nhảy
+
+
