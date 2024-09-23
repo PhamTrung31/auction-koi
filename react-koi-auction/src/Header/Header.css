@@ -1,5 +1,10 @@
-.container {
+nav.bg-body-tertiary {
+    padding: 0 0;
+}
+
+div.container {
     background-color: black;
+    box-shadow: 3px 3px 10px black;
 }
 
 a.navbar-brand {
@@ -39,5 +44,8 @@ a.nav-link:hover {
     color: #D93D04;
 }
 
+span.navbar-toggler{
+    color: white;
+}
 
 
