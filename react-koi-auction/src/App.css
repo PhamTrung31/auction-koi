@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+Footer {
+  margin-top: auto;
+}
+
+div.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div.body-content {
+  flex-grow: 1;
+  overflow: auto;
+}

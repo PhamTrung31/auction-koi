@@ -1,0 +1,51 @@
+nav.bg-body-tertiary {
+    padding: 0 0;
+}
+
+div.container {
+    background-color: black;
+    box-shadow: 3px 3px 10px black;
+}
+
+a.navbar-brand {
+    color: white;
+    font-weight: bolder;
+}
+a.navbar-brand:focus {
+    font-weight: bold;
+    color: white;
+}
+a.navbar-brand:hover {
+    font-weight: bold;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+a.nav-link:focus {
+    font-weight: bold;
+    color: white;
+}
+a.nav-link:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#regis:last-child {
+    color: #D93D04;
+}
+#regis:focus {
+    font-weight: bold;
+    color: #D93D04;
+}
+#regis:hover {
+    font-weight: bold;
+    color: #D93D04;
+}
+
+span.navbar-toggler{
+    color: white;
+}
+
+
