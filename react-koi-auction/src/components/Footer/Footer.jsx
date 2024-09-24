@@ -10,7 +10,7 @@ import './Footer.css'
 function Footer() {
 
     return (
-        <MDBFooter className='bg-secondary text-white'>
+        <MDBFooter className='text-white'>
             <MDBContainer className='p-4'>
                 <MDBRow>
                     <MDBCol lg="6" md="12" className='mb-4 mb-md-0'>

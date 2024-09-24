@@ -1,5 +1,4 @@
-
-div.container.p-4 {
+footer {
     background-color: #E97676;
     box-shadow: none;
 }
@@ -16,6 +15,6 @@ h5.text-uppercase {
     padding-left: 10px;
 }
 
-ul.list-unstyled > li {
+ul.list-unstyled>li {
     text-align: right;
 }
