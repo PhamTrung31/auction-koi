@@ -1,75 +1,8 @@
 {
   "users": [
     {
-      "id": "1",
-      "email": "a@gmail.com",
-      "password": "a1",
-      "role": 1,
-      "fullname": "Nguyen Van A",
-      "phone": 1234567890,
-      "address": "Ho Chi Minh",
-      "active": 1,
-      "created": "2022-10-31T09:00:00.594Z",
-      "updated": "2023-10-31T09:00:00.594Z"
-    },
-    {
-      "id": "2",
-      "email": "b@gmail.com",
-      "password": "b2",
-      "role": 1,
-      "fullname": "Nguyen Van B",
-      "phone": 1234567891,
-      "address": "Hoi An",
-      "active": 1,
-      "created": "2022-11-31T09:00:00.594Z",
-      "updated": "2024-10-31T09:00:00.594Z"
-    },
-    {
-      "id": "3",
-      "email": "c@gmail.com",
-      "password": "c3",
-      "role": 1,
-      "fullname": "Nguyen Van C",
-      "phone": 1234567892,
-      "address": "Ha Noi",
-      "active": 0,
-      "created": "2022-06-31T09:00:00.594Z",
-      "updated": "2024-11-31T09:00:00.594Z"
-    },
-    {
-      "id": "4",
-      "email": "d@gmail.com",
-      "password": "d4",
-      "role": 2,
-      "fullname": "Nguyen Van D",
-      "phone": 1234567893,
-      "address": "Ho Chi Minh",
-      "active": 1,
-      "created": "2022-03-31T09:00:00.594Z",
-      "updated": "2022-10-15T09:00:00.594Z"
-    },
-    {
-      "id": "5",
-      "email": "e@gmail.com",
-      "password": "e5",
-      "role": 3,
-      "fullname": "Nguyen Van E",
-      "phone": 1234567894,
-      "address": "Ho Chi Minh",
-      "active": 1,
-      "created": "2022-05-31T09:00:00.594Z",
-      "updated": "2023-07-30T09:00:00.594Z"
-    },
-    {
-      "email": "g@gmail.com",
-      "password": "g7",
-      "role": 1,
-      "fullname": "Le Thi G",
-      "id": "d49f"
-    },
-    {
       "id": "bf47",
-      "fullname": "KhoaNguyễn",
+      "fullname": "Khoa Nguyễn",
       "email": "khoanguyen@gmail.com",
       "phone": "0899463017",
       "address": "D4/16C KP4, Tân Túc, Bình Chánh, TP.HCM",
@@ -78,6 +11,30 @@
       "active": 1,
       "created": "2024-09-23T10:12:18.941Z",
       "updated": "2024-09-23T10:12:18.941Z"
+    },
+    {
+      "id": "ccc0",
+      "fullname": "Michael Jackson",
+      "email": "michaeljack@gmail.com",
+      "phone": "0473918274",
+      "address": "New York, USA",
+      "password": "michaeljackson",
+      "role": 1,
+      "active": 1,
+      "created": "2024-09-23T13:21:32.164Z",
+      "updated": "2024-09-23T13:21:32.164Z"
+    },
+    {
+      "id": "56e7",
+      "fullname": "Luffy Monkey D",
+      "email": "luffytarou@gmail.com",
+      "phone": "0195837429",
+      "address": "Foosha Village, East Blue",
+      "password": "goingmerry",
+      "role": 1,
+      "active": 1,
+      "created": "2024-09-23T13:26:33.487Z",
+      "updated": "2024-09-23T13:26:33.487Z"
     }
   ]
 }
