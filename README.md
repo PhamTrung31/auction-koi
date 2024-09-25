@@ -1,2 +1,2 @@
-# koi-auction
+# auction-koi
 Project SWP391
